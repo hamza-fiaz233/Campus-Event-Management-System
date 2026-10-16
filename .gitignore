@@ -1,0 +1,18 @@
+ 
+# Dependency directories (bloated files)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Local database file
+backend/campus_events.db
+*.db
+*.sqlite3
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
